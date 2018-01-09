@@ -233,9 +233,22 @@
     <Compile Include="Migrations\201801091923517_SetBirthdateToCustomers.Designer.cs">
       <DependentUpon>201801091923517_SetBirthdateToCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801091949208_ApplyAnnotationToNameInMovie.cs" />
+    <Compile Include="Migrations\201801091949208_ApplyAnnotationToNameInMovie.Designer.cs">
+      <DependentUpon>201801091949208_ApplyAnnotationToNameInMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801091952218_AddGenreToMovie.cs" />
+    <Compile Include="Migrations\201801091952218_AddGenreToMovie.Designer.cs">
+      <DependentUpon>201801091952218_AddGenreToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801091954468_AddDateAddedReleaseDateNumberOfStock.cs" />
+    <Compile Include="Migrations\201801091954468_AddDateAddedReleaseDateNumberOfStock.Designer.cs">
+      <DependentUpon>201801091954468_AddDateAddedReleaseDateNumberOfStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -351,6 +364,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801091923517_SetBirthdateToCustomers.resx">
       <DependentUpon>201801091923517_SetBirthdateToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091949208_ApplyAnnotationToNameInMovie.resx">
+      <DependentUpon>201801091949208_ApplyAnnotationToNameInMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091952218_AddGenreToMovie.resx">
+      <DependentUpon>201801091952218_AddGenreToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091954468_AddDateAddedReleaseDateNumberOfStock.resx">
+      <DependentUpon>201801091954468_AddDateAddedReleaseDateNumberOfStock.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
