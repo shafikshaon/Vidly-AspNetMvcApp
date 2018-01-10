@@ -46,5 +46,13 @@ namespace Vidly.Controllers
                 return HttpNotFound();
             return View(customer);
         }
+
+        [HttpPost]
+        public ActionResult Create(Customer customer)
+        {
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Customers");
+        }
     }
 }
