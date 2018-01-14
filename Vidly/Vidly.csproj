@@ -281,6 +281,10 @@
     <Compile Include="Migrations\201801121735426_AddDrivingLicenseToApplicationUser.Designer.cs">
       <DependentUpon>201801121735426_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801141238373_AddPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\201801141238373_AddPhoneToApplicationUser.Designer.cs">
+      <DependentUpon>201801141238373_AddPhoneToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -605,6 +609,9 @@
     <EmbeddedResource Include="Migrations\201801121735426_AddDrivingLicenseToApplicationUser.resx">
       <DependentUpon>201801121735426_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801141238373_AddPhoneToApplicationUser.resx">
+      <DependentUpon>201801141238373_AddPhoneToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -624,7 +631,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51364</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44318/</IISUrl>
+          <IISUrl>https://localhost:44318</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
